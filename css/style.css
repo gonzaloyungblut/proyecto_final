@@ -13,14 +13,14 @@
     background-color: rgb(120, 169, 120);
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 
-.header img{
-    width: 200px;
+.header img {
+    width: 290px;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -28,8 +28,69 @@
     width: 75vw;
     font-size: 22px;
     font-weight: bold;
-   
+
 }
+
+/* diseño footer */
+
+.footer {
+    min-height: 10vh;
+    display: grid;
+    background-color:  rgb(120, 169, 120);
+    grid-template-areas:
+        "direccion telefono mail instagram"
+        ". . . ."
+        ". . . ."
+        ". . . .";
+}
+
+.direccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion img {
+    width: 30px;
+}
+
+.telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.telefono img {
+    width: 30px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mail img {
+    width: 30px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.instagram img {
+    width: 30px;
+}
+
 
 /*  
 main {
@@ -83,19 +144,9 @@ ul {
     
 }
 
-/* dise{o footer */
-    /*  
-.footer {
-    height: 15vh;
-    color: black;
-    background-color: orange;
-    font-size: 18px;
-    font-weight: lighter;
-    
-}
-
 .lista-alquileres {
     color: white;
     background-color: green;
     font-size: 18px;
-    
+}
+  */
