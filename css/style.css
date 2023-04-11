@@ -10,7 +10,8 @@
     min-height: 18vh;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(120, 169, 120);
+    /* gradiente lineal */
+    background-image: linear-gradient(to right, #3cba92, #fee140 );
     align-items: center;
     flex-wrap: wrap;
 
@@ -33,15 +34,17 @@
 
 /* diseño footer */
 
-.footer {
+.footer{
     min-height: 10vh;
     display: grid;
-    background-color:  rgb(120, 169, 120);
+    /* gradiente lineal */
+    background-image: linear-gradient(to left, #3cba92, #fee140 );
     grid-template-areas:
         "direccion telefono mail instagram"
         ". . . ."
         ". . . ."
         ". . . .";
+   
 }
 
 .direccion {
