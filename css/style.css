@@ -209,5 +209,21 @@
     }
   }
 
+.formulario{
+    background-color: #f8f8f8;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gonzalo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 
