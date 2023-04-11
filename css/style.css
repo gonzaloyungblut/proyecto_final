@@ -11,14 +11,14 @@
     display: flex;
     justify-content: space-between;
     /* gradiente lineal */
-    background-image: linear-gradient(to right, #3cba92, #fee140 );
+    background-image: linear-gradient(to right, #3cba92, #fee140);
     align-items: center;
     flex-wrap: wrap;
 
 }
 
 .header img {
-    width: 290px;
+    width: 190px;
 }
 
 .nav ul {
@@ -34,17 +34,18 @@
 
 /* diseño footer */
 
-.footer{
-    min-height: 10vh;
+.footer {
+    min-height: 15vh;
+    padding: 15px;
     display: grid;
     /* gradiente lineal */
-    background-image: linear-gradient(to left, #3cba92, #fee140 );
+    background-image: linear-gradient(to left, #3cba92, #fee140);
     grid-template-areas:
         "direccion telefono mail instagram"
         ". . . ."
         ". . . ."
         ". . . .";
-   
+
 }
 
 .direccion {
@@ -94,28 +95,76 @@
     width: 30px;
 }
 
+/* cuerpo del index main */
 
-/*  
-main {
-    height: 60vh;
+.inicio {
+    display: grid;
+    grid-template-areas:
+        "imagen titulo"
+        "imagen subtitulo"
+        "imagen historia";
+    justify-items: center;
+    background-color: rgb(227, 245, 195);
 }
 
-h1 {
-    color: white;
-    background-color: green;
-    font-size: 36px;
-    font-weight: normal;
-       text-align: center;
+.titulo {
+    grid-area: titulo;
+    padding: 5px;
+        font-size: 36px;
 }
 
-h2 {
-    color: white;
-    background-color: green;
-    font-size: 25px;
-    
-    text-align: center;
+.subtitulo {
+    grid-area: subtitulo;
+        font-size: 28px;
 }
 
+.imagen {
+    grid-area: imagen;
+   }
+
+.historia {
+    grid-area: historia;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imagen img {
+    height: 59vh;
+}
+
+.historia p {
+    padding: 20px;
+
+}
+
+
+
+/*
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.inicio h1{
+    padding: 5px;
+
+}
+
+.inicio h2{
+    padding: 5px;
+}
+
+.inicio img{
+    width:380px;
+}
+
+
+
+
+  
 h3 {
     color: white;
     background-color: green;
