@@ -217,6 +217,7 @@
     }
 }
 
+/* contacto y su diseño */
 .formulario {
     background-color: rgb(227, 245, 195);
     height: 65vh;
@@ -231,4 +232,143 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+
+/* mobile last a Inicio */
+
+@media (max-width:420px){
+/* icono mas barra de navegacion */
+.header {
+    min-height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gradiente lineal */
+    background-image: linear-gradient(to right, #3cba92, #fee140);
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.header img {
+    width: 150px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: black;
+    width: 75vw;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: rgb(227, 245, 195);
+    align-items: center;
+}
+.imagen img{
+    width: 300px;
+}
+/* footer para mobile */
+
+.footer {
+    display: grid;
+    font-size: 6px;
+    /* gradiente lineal */
+    background-image: linear-gradient(to left, #3cba92, #fee140);
+    grid-template-areas:
+        "direccion telefono mail instagram"
+        ". . . ."
+        ". . . ."
+        ". . . .";
+    align-items: baseline;
+}
+
+.direccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion img {
+    width: 10px;
+}
+
+.telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.telefono img {
+    width: 10px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mail img {
+    width: 10px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.instagram img {
+    width: 10px;
+}
+
+
+/* main de terreno */
+
+.generico {
+    background-color: rgb(227, 245, 195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1px;
+}
+
+.generico h1{
+    font-size: 10px;
+}
+.generico h2{
+    font-size: 10px;
+}
+.generico h3{
+    font-size: 10px;
+}
+.generico p{
+    font-size: 6px;
+}
+
+
+.terreno img {
+    height: 30vh;
+    padding: 1px;
+    
+
+}
+
+
 }
