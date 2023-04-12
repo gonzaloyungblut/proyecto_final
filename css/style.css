@@ -130,7 +130,7 @@
 }
 
 .imagen img {
-    height: 59vh;
+    height: 65vh;
 }
 
 .historia p {
@@ -146,14 +146,22 @@
         "alquiler-titulo alquiler-titulo"
         "alquiler-subtitulo alquiler-subtitulo"
         "slide texto";
+    height: 65vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(227, 245, 195);
 }
 
 .alquiler-titulo {
     grid-area: alquiler-titulo;
+    font-size: 36px;
+
 }
 
 .alquiler-subtitulo {
     grid-area: alquiler-subtitulo;
+    font-size: 28px;
 }
 
 .slide {
@@ -167,7 +175,7 @@
 /* diseño para ventas y terrenos */
 
 .generico {
-    background-color: #f8f8f8;
+    background-color: rgb(227, 245, 195);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,7 +191,7 @@
 }
 
 .fila img {
-    height: 42vh;
+    height: 38vh;
     padding: 5px;
 }
 
@@ -199,31 +207,28 @@
 
 @keyframes slidein {
     from {
-      margin-left: 100%;
-      width: 300%
+        margin-left: 100%;
+        width: 300%
     }
-  
+
     to {
-      margin-left: 0%;
-      width: 100%;
+        margin-left: 0%;
+        width: 100%;
     }
-  }
+}
 
-.formulario{
-    background-color: #f8f8f8;
-    height: 60vh;
+.formulario {
+    background-color: rgb(227, 245, 195);
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.gonzalo{
+.gonzalo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-
-
-
