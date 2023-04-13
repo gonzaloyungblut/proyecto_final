@@ -25,11 +25,16 @@
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    color: black;
     width: 75vw;
     font-size: 22px;
     font-weight: bold;
 
+}
+
+/* uso de hover para la barra de navegacion */
+.jover:hover{
+    color:white;
+    font-size: 30px;
 }
 
 /* diseño footer */
