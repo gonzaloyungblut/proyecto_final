@@ -185,7 +185,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 5px;
+    padding: 8px;
 }
 
 .fila {
@@ -201,7 +201,7 @@
 }
 
 .terreno img {
-    height: 42vh;
+    height: 37vh;
     padding: 5px;
     /* animacion de la imagen */
 
@@ -271,7 +271,20 @@
     align-items: center;
 }
 .imagen img{
-    width: 300px;
+    width: 17vw;
+    height: 17vw;
+}
+
+.titulo{
+    font-size: 12px;
+}
+.subtitulo{
+    font-size: 12px;
+}
+.historia p{
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
 }
 /* footer para mobile */
 
