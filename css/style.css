@@ -39,66 +39,28 @@
 
 /* diseño footer */
 
-.footer {
-    min-height: 15vh;
+footer{
+   /* gradiente lineal */
+   background-image: linear-gradient(to left, #3cba92, #fee140); 
+}
+
+.footers {
     padding: 15px;
-    display: grid;
-    /* gradiente lineal */
-    background-image: linear-gradient(to left, #3cba92, #fee140);
-    grid-template-areas:
-        "direccion telefono mail instagram"
-        ". . . ."
-        ". . . ."
-        ". . . .";
-
-}
-
-.direccion {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.direccion img {
-    width: 30px;
+.footers img{
+    height: 40px;
 }
 
-.telefono {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+footer p {
+    font-size: 13px;
+    margin: 0;
 }
 
-.telefono img {
-    width: 30px;
-}
 
-.mail {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.mail img {
-    width: 30px;
-}
-
-.instagram {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.instagram img {
-    width: 30px;
-}
 
 /* cuerpo del index main */
 
@@ -135,7 +97,7 @@
 }
 
 .imagen img {
-    height: 65vh;
+    height: 67vh;
 }
 
 .historia p {
@@ -285,67 +247,6 @@
     font-size: 8px;
     padding: 0;
     margin: 0;
-}
-/* footer para mobile */
-
-.footer {
-    display: grid;
-    font-size: 6px;
-    /* gradiente lineal */
-    background-image: linear-gradient(to left, #3cba92, #fee140);
-    grid-template-areas:
-        "direccion telefono mail instagram"
-        ". . . ."
-        ". . . ."
-        ". . . .";
-    align-items: baseline;
-}
-
-.direccion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.direccion img {
-    width: 10px;
-}
-
-.telefono {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.telefono img {
-    width: 10px;
-}
-
-.mail {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.mail img {
-    width: 10px;
-}
-
-.instagram {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.instagram img {
-    width: 10px;
 }
 
 
